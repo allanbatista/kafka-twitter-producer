@@ -9,4 +9,4 @@ WORKDIR ${HOME_APP}
 
 RUN pip install -r requirements.txt
 
-CMD ['python', '-m', 'kafka_twitter_producer.main']
+CMD ["python", "-m", "kafka_twitter_producer.main"]
